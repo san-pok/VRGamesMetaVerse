@@ -19,6 +19,6 @@ During the design process, I learned various techniques such as integrating Goog
 ### Sample 3
 ![Sample 3](./assets/Discover_Section.png)
 
-###Thank you !!
+### Thank you !!
 
 
