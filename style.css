@@ -41,3 +41,86 @@ header{
 #nav-items li{
     cursor: pointer;
 }
+
+#main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+    background-image: url('./assets/pexels-cottonbro-studio-8721340.jpg');
+    mix-blend-mode:color-dodge;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+  
+}
+
+#main-header .left #overview .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-header .left #overview .overview-items h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+.gradient-text{
+    color: #ff00f2;
+}
+#main-header .left #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+#main-header .right{
+    width: 90%;
+    height: 100%;
+}
+#main-header .left{
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    left: 10%;
+    color: #fff;
+}
+#main-header .left .big-text{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 900;
+}
+
+#main-header .left #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+}
+#main-header .right img{
+    width: 100%;
+    height: 105vh;
+    margin-top: -11vh;
+    mix-blend-mode:color-dodge;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    
+}
+.btn1{
+    background:linear-gradient(45deg, #2d1e6b, #ff00f2)
+}
